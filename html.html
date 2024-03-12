@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Chu's China Bistro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css"> 
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default navbar-expand-lg navbar-expand-md ">
+            <div class=" container">
+                <div class="navbar-header">
+                    <a href="html.html" class="pull-left">
+                        <div id="logo-img" alt="Logo image"></div>
+                    </a>
+            
+                    <div class="navbar-brand">
+                        <a href="html.html"><h1> Moroccan Treats</h1> </a>
+                        <p>
+                            <span>Home Made</span>
+                        </p>
+                    </div>
+                    <button id="navbarToggle" class="navbar-toggler d-md-none d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                
+                <div id="collapsable-nav" class="collapse navbar-collapse ">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a href="html.html" class="nav-link active" aria-current="page"> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="categories.html"  class="nav-link"> Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>    <!--  End of HEADER -->
+    <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="img/1.jpg " class="d-block c-img">
+          </div>
+          <div class="carousel-item c-item">
+            <img src="img/2.jpg" class="d-block  c-img">
+          </div>
+          <div class="carousel-item c-item">
+            <img src="img/3.jpg" class="d-block c-img">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>  <!--  End of CAROUSEL SLIDE  -->
+    <div class="container ">
+        <div id="home-tiles" class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 col-xxs-12">
+                <a href="categories.html">
+                    <div id="menu-tile">
+                        <span>Menu</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 col-xxs-12">
+                <a href="specials.html">
+                    <div id="specials-tile">
+                        <span>specials</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12 ">
+                <a href="https://maps.app.goo.gl/gXLdJNry3UCRqTHC6" target="_blank">
+                    <div id="map-tile">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13232.092251125947!2d-6.859860048513548!3d33.99194137087176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76dcc4b6af5cf%3A0x82d47f39755338d2!2sRABAT%20AGDAL!5e0!3m2!1sfr!2sma!4v1707755056546!5m2!1sfr!2sma" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <span>Map</span>
+                    </div>
+                </a>
+            </div>
+        </div>     <!--  End of Home TILES  -->
+    </div>
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>Hours:</span> <br>
+                    Sun-Thurs: 9am-4pm <br>
+                    Fri:9am-12am <br>
+                    Saturday Closed 
+                    <hr class="d-sm-none">
+                </section>
+                <section id="address" class="col-sm-4">
+                    <span>Address:</span><br>
+                    X5R2+Q5G, Rabat,Morocco 
+                    <p>
+                        ** Delivery area within 3-4 miles, with minimum order of 50Dh 
+                        plus 20Dh charge for all deliveries. **
+                    </p>
+                    <hr class="d-sm-none">
+                </section>
+                <section id="testimonials" class="col-sm-4">
+                    <p>
+                        " The best Moroccan bakery I've been to! And that's 
+                        saying a lot , since I've been to many!"
+                    </p>
+                    <p>
+                        "Amazing food! Great service! Couldn't ask for more!
+                        I'll be back again and again!"
+                    </p>
+                </section>
+            </div>
+        </div>
+        <div class="text-center">
+            &copy; Copyright Moroccans Treat 
+        </div>
+    </footer> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+</body>
+</html>
